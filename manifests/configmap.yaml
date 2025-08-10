@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: final
+data:
+  STUDENT_NAME: "Ajay Singh"
+  BG_IMAGE_URL: "s3://clo835-background-image/fewa_lake.jpg"
+  DBHOST: "mysql-service"
+  DATABASE: "employees"
+  DBPORT: "3306"
+  APP_COLOR: "blue"
